@@ -1,0 +1,64 @@
+.ASII-ctr {
+  margin: 0;
+  padding: 3vw 4vw 0 4vw;
+  width: 100%;
+  min-height: 20vh;
+}
+
+.ASII-title {
+  font-size: 2vw;
+  text-align: left;
+  font-variant: small-caps;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.ASII-title-highlights {
+  color: #9D2553;
+}
+
+.ASII-description {
+  font-size: 1.2vw;
+  padding: 30px;
+  text-align: left;  
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  letter-spacing: 0.2px;
+  word-spacing: 5px;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  text-transform: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .ASII-ctr {
+    min-height: 30vh;
+  }
+
+  .ASII-title {
+    font-size: 3vw;
+  }
+
+  .ASII-description {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ASII-ctr {
+    min-height: 30vh;
+  }
+
+  .ASII-title {
+    font-size: 4.2vw;
+  }
+
+  .ASII-description {
+    font-size: 2.4vw;
+  }
+}

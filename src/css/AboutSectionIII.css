@@ -1,0 +1,89 @@
+.ASIII-ctr {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: rgb(240, 209, 204);
+}
+
+.ASIII-left-ctr {
+  width: 50%;
+  float: left;
+  height: 35vw;
+  padding: 3vw;
+}
+
+.ASIII-right-ctr {
+  width: 50%;
+  float: right;
+  height: 35vw;
+  padding: 3vw;
+}
+
+.ASIII-description {
+  font-size: 1.2vw;
+  padding: 30px;
+  text-align: left;  
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  letter-spacing: 0.2px;
+  word-spacing: 5px;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  text-transform: none;
+}
+
+.ASIII-img {
+  width: 70%;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .ASIII-left-ctr {
+    width: 100%;
+    float: left;
+    height: 32vw;
+    padding: 0 4vw 0 4vw;
+  }
+
+  .ASIII-right-ctr {
+    width: 100%;
+    float: right;
+    padding: 0;
+    height: 40vw;
+  }
+
+  .ASIII-description {
+    font-size: 1.5vw;
+  }
+
+  .ASIII-img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ASIII-left-ctr {
+    height: 65vw;
+  }
+
+  .ASIII-right-ctr {
+    height: 60vw;
+  }
+
+  .ASIII-description {
+    font-size: 2.4vw;
+  }
+
+  #paragraph-2 {
+    margin-top: -40px;
+  }
+
+  .ASIII-img {
+    width: 60%;
+    height: auto;
+  }
+}
