@@ -36,7 +36,7 @@ const HomeSectionI = () => {
           <CustomLink to="/about" className="HSI-btn" id="btn">About Us</CustomLink>
         </div>
         <div className="HSI-right-ctr">
-          <Spline scene="https://prod.spline.design/2SuwXqID5yuIjF8m/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/wQMWIuGAFYfMuCMP/scene.splinecode" />
         </div>
       </section>
     </>

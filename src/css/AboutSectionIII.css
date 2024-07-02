@@ -2,7 +2,6 @@
   margin: 0;
   position: relative;
   width: 100%;
-  background-color: rgb(240, 209, 204);
 }
 
 .ASIII-left-ctr {
@@ -10,6 +9,7 @@
   float: left;
   height: 35vw;
   padding: 3vw;
+  background-color: rgb(245, 228, 225);
 }
 
 .ASIII-right-ctr {
@@ -17,6 +17,7 @@
   float: right;
   height: 35vw;
   padding: 3vw;
+  background-color: rgb(245, 228, 225);
 }
 
 .ASIII-description {
